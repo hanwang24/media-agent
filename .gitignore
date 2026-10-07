@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# test artifacts
+e2e-out/
+tools-out/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# logs
+*.log
+
+# toolchain binaries must never be committed (installed by scripts/install-toolchain.mjs)
+*.exe
+tools/

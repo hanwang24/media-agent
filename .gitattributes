@@ -1,0 +1,13 @@
+# Store LF in the repository on every platform so a Windows checkout and a
+# macOS checkout of the same commit are byte-identical for text files.
+* text=auto eol=lf
+
+# Never touch these.
+*.mp4 binary
+*.m4a binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.exe binary
+*.zip binary

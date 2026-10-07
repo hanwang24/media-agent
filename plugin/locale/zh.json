@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "媒体工具箱",
+    "description": "用内置的 ffmpeg / ffprobe / MediaInfo 工具链探测、转码、剪切、拼接、提取与批量处理媒体文件。"
+  }
+}

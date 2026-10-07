@@ -1,0 +1,4 @@
+# Media Agent: structured ffmpeg / ffprobe / MediaInfo tools.
+- insert:
+    - id: media-agent
+      name: '@local/media-agent'

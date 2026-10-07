@@ -1,0 +1,26 @@
+{
+  "name": "@local/media-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Structured ffmpeg / ffprobe / MediaInfo tools for audio-video work.",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "assets",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

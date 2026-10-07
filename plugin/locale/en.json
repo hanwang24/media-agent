@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Media Agent",
+    "description": "Probe, transcode, clip, concat, extract, and batch-process media with the bundled ffmpeg / ffprobe / MediaInfo toolchain."
+  }
+}
