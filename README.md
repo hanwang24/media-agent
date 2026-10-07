@@ -69,7 +69,10 @@ node test-media-agent-tools.mjs
 node test-media-agent-e2e.mjs
 ```
 
-前两个需要本机已装好工具链（`~/.dsh/tools/av/bin` 或 `DSH_AV_TOOLS` 指向的目录）。
+三个测试都需要本机已装好工具链（默认 `~/.dsh/tools/av/bin`，或用 `DSH_AV_TOOLS` 指向别的目录）。
+`test-media-agent-tools.mjs` 里的 `av_plot` 用例还需要 Python + numpy + Pillow——DSH 自带运行时已包含，
+也可用 `DSH_PYTHON` 指定别的解释器。装工具链：
+`node skills/media-agent/scripts/install-toolchain.mjs`。
 
 ## 许可
 
