@@ -73,7 +73,6 @@ node test-media-agent-e2e.mjs
 
 ## 许可
 
-MIT，见 [LICENSE](LICENSE)。发布前请把 LICENSE 里的 `<COPYRIGHT HOLDER>` 换成你的名字或组织；
-想换成别的许可证（如 Apache-2.0）告诉我即可。
+MIT，见 [LICENSE](LICENSE) —— Copyright (c) 2026 hanwang24。
 
-`plugin/package.json` 里的 `private: true` 保持即可（本包通过本地路径安装，不发布到 npm）。
+`plugin/package.json` 保持 `private: true`：本包通过本地路径安装，不发布到 npm。
